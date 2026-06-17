@@ -2,32 +2,34 @@
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
-![Deep Learning](https://img.shields.io/badge/Deep%20Learning-LSTM-green)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-Bi--LSTM-green)
 ![NLP](https://img.shields.io/badge/NLP-Text%20Generation-purple)
-![License](https://img.shields.io/badge/License-MIT-red)
+
+---
 
 ## Project Overview
 
-This project implements a **Next Word Prediction System** using **Natural Language Processing (NLP)** and **Deep Learning**. The model learns language patterns from a large collection of quotes and predicts the most likely next word based on user input.
+This project implements a **Next Word Prediction System** using **Natural Language Processing (NLP)** and **Deep Learning**. The model was trained on the WikiQuotes dataset to learn language patterns and predict the most probable next word based on user input.
 
-The project demonstrates the complete machine learning workflow including data preprocessing, exploratory data analysis (EDA), sequence generation, model training, evaluation, and interactive prediction.
+The project demonstrates the complete AI workflow, including text preprocessing, exploratory data analysis (EDA), tokenization, sequence generation, model training, evaluation, and interactive prediction.
 
 ---
 
 ## Features
 
-- Large-scale text preprocessing
-- Text cleaning and normalization
-- Word Tokenization
-- Sequence Generation
-- Padding of input sequences
-- Bidirectional LSTM Neural Network
-- Early Stopping to reduce overfitting
-- Interactive Next Word Prediction
-- Accuracy & Loss Visualization
+- Text Cleaning & Normalization
+- Large-Scale Dataset Processing
+- Exploratory Data Analysis (EDA)
 - Word Frequency Analysis
 - Word Cloud Generation
-- Saved trained model for future predictions
+- Tokenization using Keras Tokenizer
+- Sequence Generation
+- Sequence Padding
+- Bidirectional LSTM Model
+- Early Stopping
+- Model Checkpoint Saving
+- Interactive Next Word Prediction
+- Accuracy & Loss Visualization
 
 ---
 
@@ -44,9 +46,9 @@ The project demonstrates the complete machine learning workflow including data p
 
 ---
 
-## Project Structure
+# Project Structure
 
-```
+```text
 Next-Word-Prediction/
 │
 ├── dataset/
@@ -68,29 +70,29 @@ Next-Word-Prediction/
 ├── train.py
 ├── predict.py
 ├── requirements.txt
-├── README.md
+└── README.md
 ```
 
 ---
 
-## Workflow
+# Workflow
 
-1. Load Dataset
-2. Clean Text
-3. Remove Missing Values
-4. Remove Duplicate Records
-5. Generate Word Frequency Analysis
+1. Load WikiQuotes Dataset
+2. Clean and Normalize Text
+3. Remove Missing & Duplicate Records
+4. Perform Exploratory Data Analysis
+5. Generate Top Words Graph
 6. Generate Word Cloud
 7. Tokenize Text
-8. Generate Training Sequences
-9. Apply Padding
+8. Generate Input Sequences
+9. Apply Sequence Padding
 10. Train Bidirectional LSTM Model
-11. Save Best Model
+11. Save Trained Model
 12. Predict Next Word
 
 ---
 
-## Model Architecture
+# Model Architecture
 
 - Embedding Layer
 - Bidirectional LSTM Layer
@@ -100,61 +102,79 @@ Next-Word-Prediction/
 
 ---
 
-## Results
+# Results
 
-### Accuracy
+## Accuracy Graph
 
-[View Accuracy Graph](graphs/accuracy.png)
+Click to view the full image.
+
+[📈 Accuracy Graph](graphs/accuracy.png)
 
 ![Accuracy](graphs/accuracy.png)
 
 ---
 
-### Loss
+## Loss Graph
 
-[View Loss Graph](graphs/loss.png)
+Click to view the full image.
+
+[📉 Loss Graph](graphs/loss.png)
 
 ![Loss](graphs/loss.png)
 
 ---
 
-### Top Words
+## Top Words Frequency
 
-[View Top Words Graph](graphs/top_words.png)
+Click to view the full image.
+
+[📊 Top Words](graphs/top_words.png)
 
 ![Top Words](graphs/top_words.png)
 
 ---
 
-### Word Cloud
+## Word Cloud
 
-[View Word Cloud](graphs/wordcloud.png)
+Click to view the full image.
+
+[☁️ Word Cloud](graphs/wordcloud.png)
 
 ![Word Cloud](graphs/wordcloud.png)
 
 ---
 
-## How to Run
+# Installation
 
-### Install Dependencies
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/Next-Word-Prediction.git
+```
+
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Preprocess Dataset
+---
+
+# Run the Project
+
+### Step 1: Preprocess Dataset
 
 ```bash
 python preprocess.py
 ```
 
-### Train Model
+### Step 2: Train Model
 
 ```bash
 python train.py
 ```
 
-### Run Prediction
+### Step 3: Run Prediction
 
 ```bash
 python predict.py
@@ -162,39 +182,44 @@ python predict.py
 
 ---
 
-## Sample Prediction
+# Sample Prediction
+
+**Input**
 
 ```
-Input:
 Artificial intelligence is
+```
 
-Suggestions:
-1. transforming
-2. changing
+**Predicted Words**
+
+```
+1. changing
+2. transforming
 3. becoming
 ```
 
 ---
 
-## Future Improvements
+# Future Improvements
 
-- Transformer-based language models
-- GPT architecture
+- Transformer-based Language Models
+- GPT Architecture
 - Beam Search Decoding
 - Top-k Sampling
 - Top-p Sampling
-- Web Application using Flask
+- Web-based User Interface
 - REST API Deployment
 
 ---
 
-## Author
+# Author
 
 **Hafsa Asif**
 
 Computer Science Student
 
-Interested in:
+### Areas of Interest
+
 - Artificial Intelligence
 - Machine Learning
 - Deep Learning
