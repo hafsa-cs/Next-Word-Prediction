@@ -68,8 +68,7 @@ Next-Word-Prediction/
 ├── train.py
 ├── predict.py
 ├── requirements.txt
-├── .gitignore
-└── README.md
+├── README.md
 ```
 
 ---
