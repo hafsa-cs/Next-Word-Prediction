@@ -108,9 +108,9 @@ Next-Word-Prediction/
 
 Click to view the full image.
 
-[📈 Accuracy Graph](graphs/accuracy.png)
+[📈 Accuracy Graph](accuracy.png)
 
-![Accuracy](graphs/accuracy.png)
+![Accuracy](accuracy.png)
 
 ---
 
@@ -118,9 +118,9 @@ Click to view the full image.
 
 Click to view the full image.
 
-[📉 Loss Graph](graphs/loss.png)
+[📉 Loss Graph](loss.png)
 
-![Loss](graphs/loss.png)
+![Loss](loss.png)
 
 ---
 
@@ -128,9 +128,9 @@ Click to view the full image.
 
 Click to view the full image.
 
-[📊 Top Words](graphs/top_words.png)
+[📊 Top Words](top_words.png)
 
-![Top Words](graphs/top_words.png)
+![Top Words](top_words.png)
 
 ---
 
@@ -138,9 +138,9 @@ Click to view the full image.
 
 Click to view the full image.
 
-[☁️ Word Cloud](graphs/wordcloud.png)
+[☁️ Word Cloud](wordcloud.png)
 
-![Word Cloud](graphs/wordcloud.png)
+![Word Cloud](wordcloud.png)
 
 ---
 
